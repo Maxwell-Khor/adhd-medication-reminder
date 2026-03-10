@@ -38,3 +38,6 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Annoying ass thing that keeps coming back for some reason
+*.DS_Store
