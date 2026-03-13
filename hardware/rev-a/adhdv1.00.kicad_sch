@@ -4,10 +4,16 @@
 	(generator_version "9.0")
 	(uuid "13efd387-de04-4584-baa5-02298cbea49f")
 	(paper "A4")
+	(title_block
+		(title "ADHD MEDICATION REMINDER SYSTEM")
+		(date "2026-03-8")
+		(rev "A")
+		(comment 1 "Designer: Maxwell Khor")
+	)
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 226.06 57.15) (xy 233.68 57.15)
+			(xy 157.48 96.52) (xy 173.99 96.52)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +23,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 43.18) (xy 233.68 43.18)
+			(xy 157.48 82.55) (xy 173.99 82.55)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +33,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 36.83) (xy 233.68 36.83)
+			(xy 157.48 76.2) (xy 173.99 76.2)
 		)
 		(stroke
 			(width 0)
@@ -36,49 +42,7 @@
 		(uuid "f8422058-43ae-434b-a7f2-3279d9530860")
 	)
 	(sheet
-		(at 233.68 88.9)
-		(size 45.72 53.34)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "021ce453-37b6-43eb-9706-4585b311e016")
-		(property "Sheetname" "haptics"
-			(at 233.68 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motor.kicad_sch"
-			(at 233.68 142.8246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "adhdv1.00"
-				(path "/13efd387-de04-4584-baa5-02298cbea49f"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 233.68 26.67)
+		(at 173.99 66.04)
 		(size 45.72 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -94,7 +58,7 @@
 		)
 		(uuid "21222315-a29d-4f50-bda6-b1ea6e535865")
 		(property "Sheetname" "MCU"
-			(at 233.68 25.9584 0)
+			(at 173.99 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +67,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 233.68 81.8646 0)
+			(at 173.99 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,7 +76,7 @@
 			)
 		)
 		(pin "CHG_STAT" input
-			(at 233.68 43.18 180)
+			(at 173.99 82.55 180)
 			(uuid "50ef7b39-8787-4fc1-b8f0-80a210ba143e")
 			(effects
 				(font
@@ -122,7 +86,7 @@
 			)
 		)
 		(pin "PGOOD_STAT" input
-			(at 233.68 57.15 180)
+			(at 173.99 96.52 180)
 			(uuid "d432e5eb-d286-4ed0-8026-748a3382ae73")
 			(effects
 				(font
@@ -132,7 +96,7 @@
 			)
 		)
 		(pin "VBAT_ADC" input
-			(at 233.68 36.83 180)
+			(at 173.99 76.2 180)
 			(uuid "9a5ccb3c-6611-4caa-a450-7ed2f49a8ec6")
 			(effects
 				(font
@@ -150,7 +114,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 26.67)
+		(at 67.31 66.04)
 		(size 90.17 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -166,7 +130,7 @@
 		)
 		(uuid "3cc063e7-8a10-4c8e-94df-0d39720f006a")
 		(property "Sheetname" "power"
-			(at 135.89 25.9584 0)
+			(at 67.31 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,7 +139,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 135.89 81.8646 0)
+			(at 67.31 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +148,7 @@
 			)
 		)
 		(pin "VBAT_ADC" output
-			(at 226.06 36.83 0)
+			(at 157.48 76.2 0)
 			(uuid "5b72789a-6a10-4384-998e-459d8c1fd74b")
 			(effects
 				(font
@@ -194,7 +158,7 @@
 			)
 		)
 		(pin "CHG_STAT" output
-			(at 226.06 43.18 0)
+			(at 157.48 82.55 0)
 			(uuid "81962b37-3885-435d-8415-7b6afded0125")
 			(effects
 				(font
@@ -204,7 +168,7 @@
 			)
 		)
 		(pin "PGOOD_STAT" output
-			(at 226.06 57.15 0)
+			(at 157.48 96.52 0)
 			(uuid "7f710bdc-5cf7-44dc-ab12-ee8928d2abf0")
 			(effects
 				(font
