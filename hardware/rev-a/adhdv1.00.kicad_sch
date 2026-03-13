@@ -7,13 +7,75 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 135.89 38.1) (xy 135.89 39.37)
+			(xy 226.06 57.15) (xy 233.68 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e23954a2-bdfe-47e9-a91c-414a5520239c")
+		(uuid "2bf5f3ff-cf44-4976-9d35-6b1430bd6d02")
+	)
+	(wire
+		(pts
+			(xy 226.06 43.18) (xy 233.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379bf745-6c01-4a6c-8c17-bf2d95c8bce5")
+	)
+	(wire
+		(pts
+			(xy 226.06 36.83) (xy 233.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8422058-43ae-434b-a7f2-3279d9530860")
+	)
+	(sheet
+		(at 233.68 88.9)
+		(size 45.72 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "021ce453-37b6-43eb-9706-4585b311e016")
+		(property "Sheetname" "haptics"
+			(at 233.68 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor.kicad_sch"
+			(at 233.68 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "adhdv1.00"
+				(path "/13efd387-de04-4584-baa5-02298cbea49f"
+					(page "4")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 233.68 26.67)
@@ -49,29 +111,9 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" passive
-			(at 233.68 69.85 180)
-			(uuid "34a2afff-a005-43aa-984f-f68ecd18da44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CHG_STAT" input
 			(at 233.68 43.18 180)
 			(uuid "50ef7b39-8787-4fc1-b8f0-80a210ba143e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3V3" input
-			(at 233.68 49.53 180)
-			(uuid "d052aabe-ece3-4399-a4fb-3869faa15340")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,46 +181,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "3V3" output
-			(at 226.06 49.53 0)
-			(uuid "01e85aa8-0135-45f8-aa54-ba879065cbcc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" passive
-			(at 226.06 69.85 0)
-			(uuid "48a815a8-9543-4b57-acfd-4066d54d4835")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_5V" input
-			(at 135.89 39.37 180)
-			(uuid "d1af3b93-9469-473c-a7b9-b0775618a1aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VBAT" output
-			(at 135.89 58.42 180)
-			(uuid "cb0f00b9-07ff-47b8-847b-62215d5cad72")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "VBAT_ADC" output
