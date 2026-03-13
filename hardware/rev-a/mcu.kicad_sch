@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Microcontroller & Connectors")
-		(date "2026-03-12")
-		(rev "A")
+		(date "2026-03-13")
+		(rev "B")
 		(comment 1 "Fixed LED Routing")
+		(comment 2 "Assigned footprints")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -3470,6 +3471,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "LRA Motor"
 		(exclude_from_sim no)
@@ -3498,6 +3600,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13357d76-a63f-40da-a52a-b50b3320db2b")
+	)
+	(junction
+		(at 102.87 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "142f7fd7-9a79-4315-abbc-2aad96fed83c")
 	)
 	(junction
 		(at 99.06 109.22)
@@ -3805,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 19.05) (xy 104.14 20.32)
+			(xy 97.79 19.05) (xy 97.79 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4045,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 27.94) (xy 104.14 29.21)
+			(xy 97.79 27.94) (xy 97.79 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4162,6 +4270,16 @@
 			(type default)
 		)
 		(uuid "50135d55-238e-47dd-83e8-8c65232829bb")
+	)
+	(wire
+		(pts
+			(xy 97.79 19.05) (xy 104.14 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514d8118-3d92-4ab4-8045-22cbbab5690d")
 	)
 	(bus
 		(pts
@@ -4995,7 +5113,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 29.21) (xy 106.68 29.21)
+			(xy 97.79 29.21) (xy 102.87 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5042,6 +5160,16 @@
 			(type default)
 		)
 		(uuid "dbc3f3bf-9d53-4984-92eb-6ba34956cd41")
+	)
+	(wire
+		(pts
+			(xy 102.87 29.21) (xy 106.68 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd450ae-a7ad-402b-80fa-f1965af246e2")
 	)
 	(wire
 		(pts
@@ -5843,7 +5971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 105.41 64.77 0)
 			(effects
 				(font
@@ -6074,7 +6202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.2652 27.94 0)
 			(effects
 				(font
@@ -6403,7 +6531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.66 151.4348 0)
 			(effects
 				(font
@@ -6536,7 +6664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 216.154 75.184 90)
 			(effects
 				(font
@@ -6791,7 +6919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.614 35.814 90)
 			(effects
 				(font
@@ -6858,7 +6986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.646 82.296 90)
 			(effects
 				(font
@@ -6925,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.646 89.916 90)
 			(effects
 				(font
@@ -6994,7 +7122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.614 33.274 90)
 			(effects
 				(font
@@ -7193,7 +7321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 216.154 72.644 90)
 			(effects
 				(font
@@ -7236,34 +7364,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 104.14 22.86 180)
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "600614d3-5f35-45fe-a032-67057809bb08")
-		(property "Reference" "BT1"
-			(at 99.822 18.542 0)
+		(uuid "5ee6c769-01e6-4927-ab27-149559fcf7d2")
+		(property "Reference" "#FLG02"
+			(at 102.87 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 92.202 21.336 0)
+		(property "Value" "PWR_FLAG"
+			(at 103.378 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 24.384 90)
+			(at 102.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7399,73 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 24.384 90)
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45474f74-8ffb-4a30-ac94-f1f00de49d25")
+		)
+		(instances
+			(project ""
+				(path "/13efd387-de04-4584-baa5-02298cbea49f/21222315-a29d-4f50-bda6-b1ea6e535865"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 97.79 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "600614d3-5f35-45fe-a032-67057809bb08")
+		(property "Reference" "BT1"
+			(at 93.472 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 85.852 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_103_1x20mm"
+			(at 97.79 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 24.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7474,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 104.14 22.86 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7483,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 104.14 22.86 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7492,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 104.14 22.86 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7501,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 104.14 22.86 0)
+			(at 97.79 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.646 79.756 90)
 			(effects
 				(font
@@ -7513,7 +7706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 88.9 142.24 0)
 			(effects
 				(font
@@ -7843,7 +8036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -7910,7 +8103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 48.895 54.61 90)
 			(effects
 				(font
@@ -7977,7 +8170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 216.154 70.104 90)
 			(effects
 				(font
@@ -8046,7 +8239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.1352 87.63 0)
 			(effects
 				(font
@@ -8179,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 32.004 63.754 90)
 			(effects
 				(font
@@ -8315,7 +8508,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 185.42 123.19 0)
 			(effects
 				(font
@@ -8476,7 +8669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -8552,7 +8745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -8622,7 +8815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 199.0852 35.56 0)
 			(effects
 				(font
@@ -8692,7 +8885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.036 87.884 90)
 			(effects
 				(font
@@ -8826,7 +9019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.646 94.996 90)
 			(effects
 				(font
@@ -8963,7 +9156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 56.8452 135.89 0)
 			(effects
 				(font
@@ -9030,7 +9223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 153.67 93.98 0)
 			(effects
 				(font
@@ -9160,7 +9353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.646 87.376 90)
 			(effects
 				(font
@@ -9227,7 +9420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -9360,7 +9553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
 			(at 41.91 92.71 0)
 			(effects
 				(font
@@ -9438,7 +9631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 84.7852 87.63 0)
 			(effects
 				(font
@@ -9505,7 +9698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.614 40.894 90)
 			(effects
 				(font
@@ -9706,7 +9899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.3752 107.95 0)
 			(effects
 				(font
@@ -9773,7 +9966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 215.646 84.836 90)
 			(effects
 				(font
@@ -9843,7 +10036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 40.64 17.78 0)
 			(effects
 				(font
@@ -9918,7 +10111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 242.57 109.22 0)
 			(effects
 				(font
@@ -9983,7 +10176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 187.96 29.21 0)
 			(effects
 				(font
@@ -10126,7 +10319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 222.25 47.2948 0)
 			(effects
 				(font
@@ -10195,7 +10388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 227.33 106.68 0)
 			(effects
 				(font
@@ -10262,7 +10455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -10337,7 +10530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 220.98 71.12 0)
 			(effects
 				(font
@@ -10470,7 +10663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 100.0252 107.95 0)
 			(effects
 				(font
@@ -10540,7 +10733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -10615,7 +10808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 40.64 54.61 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ADHD MEDICATION REMINDER SYSTEM")
-		(date "2026-03-8")
-		(rev "A")
+		(date "2026-03-13")
+		(rev "B")
 		(comment 1 "Designer: Maxwell Khor")
 	)
 	(lib_symbols)
