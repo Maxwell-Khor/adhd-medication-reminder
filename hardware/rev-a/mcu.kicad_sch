@@ -3573,6 +3573,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LED Strip Header"
+		(exclude_from_sim no)
+		(at 84.582 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2060bdce-7bd7-4aab-853e-1e7a6eb59f32")
+	)
+	(text "MCU Module"
+		(exclude_from_sim no)
+		(at 213.36 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2106fb69-676d-4959-aa86-37b9c035be5d")
+	)
+	(text "RTC + Battery Cell"
+		(exclude_from_sim no)
+		(at 81.026 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33f804fd-e3d4-406e-b8fa-3eaeb94b800d")
+	)
 	(text "LRA Motor"
 		(exclude_from_sim no)
 		(at 91.44 139.446 0)
@@ -3582,6 +3612,66 @@
 			)
 		)
 		(uuid "3d81c1c5-b15b-47a9-bab0-10eb1b6129a0")
+	)
+	(text "Motor Driver"
+		(exclude_from_sim no)
+		(at 62.23 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4464fd7a-33bb-41ac-8375-8b1956137091")
+	)
+	(text "UART Header"
+		(exclude_from_sim no)
+		(at 49.276 14.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8f2d79c-589a-41af-8ed0-60b9d64f42b1")
+	)
+	(text "SWD Header"
+		(exclude_from_sim no)
+		(at 48.26 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba2baf2c-7fb3-4a10-81ef-d29788c6871c")
+	)
+	(text "Buttons Header (3 buttons tied to same ground)"
+		(exclude_from_sim no)
+		(at 40.64 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5f361d3-b696-4924-9f26-b646873d22d2")
+	)
+	(text "NPN + Buzzer"
+		(exclude_from_sim no)
+		(at 21.336 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6001d58-fb1d-4cb6-b774-ea4bcc73e5c8")
+	)
+	(text "2 Individual LEDs Headers"
+		(exclude_from_sim no)
+		(at 119.38 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f24b4538-bdb3-43b5-8e82-b50acf62a9a5")
 	)
 	(junction
 		(at 52.07 137.16)
@@ -4263,7 +4353,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 36.83) (xy 160.02 83.82)
+			(xy 160.02 36.83) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4353,7 +4443,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 160.02 93.98)
+			(xy 160.02 80.01) (xy 160.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4430,6 +4520,16 @@
 			(type default)
 		)
 		(uuid "6a08d4f6-e050-4e4a-94c3-11e188d0e6b2")
+	)
+	(wire
+		(pts
+			(xy 201.93 120.65) (xy 190.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e75ea41-35e7-44e4-855d-eba34397cc89")
 	)
 	(bus
 		(pts
@@ -8416,7 +8516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 120.65 90)
+		(at 201.93 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8425,7 +8525,7 @@
 		(fields_autoplaced yes)
 		(uuid "90928d3e-adfe-48d1-a079-545363236c9f")
 		(property "Reference" "#PWR037"
-			(at 196.85 120.65 0)
+			(at 201.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,16 +8534,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 120.6499 90)
+			(at 204.47 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 120.65 0)
+			(at 201.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,7 +8552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 120.65 0)
+			(at 201.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +8561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 120.65 0)
+			(at 201.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,7 +8959,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 160.02 87.63 0)
+		(at 160.02 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8868,7 +8968,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bd295e5-f8ae-46e7-8158-31f938b969e3")
 		(property "Reference" "R14"
-			(at 162.56 86.3599 0)
+			(at 162.56 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,7 +8977,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 162.56 88.8999 0)
+			(at 162.56 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8886,7 +8986,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 161.036 87.884 90)
+			(at 161.036 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,7 +8995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 87.63 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +9004,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 160.02 87.63 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
