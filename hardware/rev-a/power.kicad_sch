@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "960a972d-9a4f-4bc9-a60a-3558ef64ea33")
-	(paper "A4")
+	(paper "User" 254 152.4)
 	(title_block
 		(title "power sheet")
 		(date "2026-03-19")
@@ -1933,9 +1933,9 @@
 		)
 		(uuid "1eadc6c1-0356-4207-b206-3a0dc9d07bb1")
 	)
-	(text "3.7V"
+	(text "Protected 3.7V LiPo"
 		(exclude_from_sim no)
-		(at 93.218 89.408 0)
+		(at 96.774 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1984,6 +1984,46 @@
 		)
 		(uuid "8d9d567e-f712-46b1-b312-3f1f9bc5f568")
 	)
+	(text "Regulated 3V3 Out"
+		(exclude_from_sim no)
+		(at 63.5 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9057a3fd-f27b-4110-8614-1469b46ea3b9")
+	)
+	(text "USB -> Charger IC -> VBAT -> LDO -> 3V3 -> MCU"
+		(exclude_from_sim no)
+		(at 184.658 88.138 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "9680be7f-fe91-40b5-80b3-a695a3fecd4d")
+	)
+	(text "-> MCU"
+		(exclude_from_sim no)
+		(at 52.07 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aab1f584-58bf-4309-9401-aaf335024bcb")
+	)
+	(text "Sets Charger IC to\n500mA USB mode"
+		(exclude_from_sim no)
+		(at 105.41 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acf7ec90-a721-495e-afa6-8edf48da6ff2")
+	)
 	(text "Charger IC"
 		(exclude_from_sim no)
 		(at 209.804 72.136 0)
@@ -2003,6 +2043,16 @@
 			)
 		)
 		(uuid "d6df7612-b351-4953-99f9-a9d797d5ff43")
+	)
+	(text "Charger IC Out"
+		(exclude_from_sim no)
+		(at 146.304 17.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f69da590-8ae3-4fb1-ace2-08dd21ff4552")
 	)
 	(text "USB 5V Supply"
 		(exclude_from_sim no)

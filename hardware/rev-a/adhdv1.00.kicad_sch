@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "13efd387-de04-4584-baa5-02298cbea49f")
-	(paper "A4")
+	(paper "A5")
 	(title_block
 		(title "ADHD MEDICATION REMINDER SYSTEM")
 		(date "2026-03-13")
