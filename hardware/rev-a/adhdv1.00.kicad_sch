@@ -97,37 +97,37 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 96.52) (xy 173.99 96.52)
+			(xy 80.01 59.69) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bf5f3ff-cf44-4976-9d35-6b1430bd6d02")
+		(uuid "1381b835-e17d-42fb-8701-f170f93d939a")
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 173.99 82.55)
+			(xy 80.01 53.34) (xy 93.98 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "379bf745-6c01-4a6c-8c17-bf2d95c8bce5")
+		(uuid "13f525ac-6442-4d09-b160-a24f89e7cca3")
 	)
 	(wire
 		(pts
-			(xy 157.48 76.2) (xy 173.99 76.2)
+			(xy 80.01 55.88) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8422058-43ae-434b-a7f2-3279d9530860")
+		(uuid "d211f994-90ed-4a33-826e-26f1a11c3ada")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 54.61 104.14 0)
+		(at 26.67 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -136,7 +136,7 @@
 		(fields_autoplaced yes)
 		(uuid "07f16cbf-18d1-4efb-b618-4783d918fda9")
 		(property "Reference" "H2"
-			(at 57.15 102.8699 0)
+			(at 29.21 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145,7 +145,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 57.15 105.4099 0)
+			(at 29.21 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,7 +154,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 54.61 104.14 0)
+			(at 26.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,7 +163,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 104.14 0)
+			(at 26.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,7 +172,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 54.61 104.14 0)
+			(at 26.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,16 +191,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 53.34 124.46 0)
+		(at 26.67 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37786e7f-78dd-427e-a97d-3b91fc0338d4")
 		(property "Reference" "H3"
-			(at 55.88 123.1899 0)
+			(at 29.21 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,7 +208,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 55.88 125.7299 0)
+			(at 29.21 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -218,7 +217,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 53.34 124.46 0)
+			(at 26.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 124.46 0)
+			(at 26.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,7 +235,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 53.34 124.46 0)
+			(at 26.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,7 +254,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 54.61 80.01 0)
+		(at 26.67 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -264,7 +263,7 @@
 		(fields_autoplaced yes)
 		(uuid "4626f598-61a7-43a9-8b71-e9da51e56bfa")
 		(property "Reference" "H1"
-			(at 57.15 78.7399 0)
+			(at 29.21 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -273,7 +272,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 57.15 81.2799 0)
+			(at 29.21 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,7 +281,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 54.61 80.01 0)
+			(at 26.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,7 +290,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 80.01 0)
+			(at 26.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +299,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 54.61 80.01 0)
+			(at 26.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -319,7 +318,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 54.61 143.51 0)
+		(at 26.67 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -328,7 +327,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d0f2e21-d0cb-451e-b0e9-09f9a9884823")
 		(property "Reference" "H4"
-			(at 57.15 142.2399 0)
+			(at 29.21 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +336,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 57.15 144.7799 0)
+			(at 29.21 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +345,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 54.61 143.51 0)
+			(at 26.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 143.51 0)
+			(at 26.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +363,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 54.61 143.51 0)
+			(at 26.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -382,8 +381,8 @@
 		)
 	)
 	(sheet
-		(at 173.99 66.04)
-		(size 45.72 54.61)
+		(at 93.98 48.895)
+		(size 30.48 24.765)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -398,7 +397,7 @@
 		)
 		(uuid "21222315-a29d-4f50-bda6-b1ea6e535865")
 		(property "Sheetname" "MCU"
-			(at 173.99 65.3284 0)
+			(at 93.98 48.1834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +406,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 173.99 121.2346 0)
+			(at 93.98 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,7 +415,7 @@
 			)
 		)
 		(pin "CHG_STAT" input
-			(at 173.99 82.55 180)
+			(at 93.98 55.88 180)
 			(uuid "50ef7b39-8787-4fc1-b8f0-80a210ba143e")
 			(effects
 				(font
@@ -426,7 +425,7 @@
 			)
 		)
 		(pin "PGOOD_STAT" input
-			(at 173.99 96.52 180)
+			(at 93.98 53.34 180)
 			(uuid "d432e5eb-d286-4ed0-8026-748a3382ae73")
 			(effects
 				(font
@@ -436,7 +435,7 @@
 			)
 		)
 		(pin "VBAT_ADC" input
-			(at 173.99 76.2 180)
+			(at 93.98 59.69 180)
 			(uuid "9a5ccb3c-6611-4caa-a450-7ed2f49a8ec6")
 			(effects
 				(font
@@ -454,8 +453,8 @@
 		)
 	)
 	(sheet
-		(at 67.31 66.04)
-		(size 90.17 54.61)
+		(at 45.085 48.895)
+		(size 34.925 24.765)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -470,7 +469,7 @@
 		)
 		(uuid "3cc063e7-8a10-4c8e-94df-0d39720f006a")
 		(property "Sheetname" "power"
-			(at 67.31 65.3284 0)
+			(at 45.085 48.1834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +478,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 67.31 121.2346 0)
+			(at 45.085 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,7 +487,7 @@
 			)
 		)
 		(pin "VBAT_ADC" output
-			(at 157.48 76.2 0)
+			(at 80.01 59.69 0)
 			(uuid "5b72789a-6a10-4384-998e-459d8c1fd74b")
 			(effects
 				(font
@@ -498,7 +497,7 @@
 			)
 		)
 		(pin "CHG_STAT" output
-			(at 157.48 82.55 0)
+			(at 80.01 55.88 0)
 			(uuid "81962b37-3885-435d-8415-7b6afded0125")
 			(effects
 				(font
@@ -508,7 +507,7 @@
 			)
 		)
 		(pin "PGOOD_STAT" output
-			(at 157.48 96.52 0)
+			(at 80.01 53.34 0)
 			(uuid "7f710bdc-5cf7-44dc-ab12-ee8928d2abf0")
 			(effects
 				(font
