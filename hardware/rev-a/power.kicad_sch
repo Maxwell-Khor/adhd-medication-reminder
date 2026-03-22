@@ -2065,6 +2065,12 @@
 		(uuid "fb3b2913-e69a-4e77-9b10-41802633e386")
 	)
 	(junction
+		(at 55.88 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "155548ee-2bbd-4724-b353-fc368259ac14")
+	)
+	(junction
 		(at 62.23 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2095,6 +2101,12 @@
 		(uuid "4c6f3aa5-76fc-4420-8263-8e4a7bc5fa48")
 	)
 	(junction
+		(at 27.94 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "539aa1cf-8fb1-4c3a-97af-4577d629127b")
+	)
+	(junction
 		(at 27.94 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2119,12 +2131,6 @@
 		(uuid "6a89b28e-3196-4776-8145-20dfef86d6a7")
 	)
 	(junction
-		(at 55.88 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73875fc9-069b-4b96-997b-c7d9e428fdc3")
-	)
-	(junction
 		(at 166.37 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2141,12 +2147,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96236778-1f36-49c1-a3b4-9595c2d51a04")
-	)
-	(junction
-		(at 27.94 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfa6997b-54fe-407e-af64-4a49776e37fa")
 	)
 	(junction
 		(at 26.67 110.49)
@@ -2229,16 +2229,6 @@
 			(type default)
 		)
 		(uuid "15c2b251-1b91-4cdd-8312-52364740dd97")
-	)
-	(wire
-		(pts
-			(xy 27.94 54.61) (xy 27.94 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1786000f-6c0c-4812-afd1-9e4e27731bf4")
 	)
 	(bus
 		(pts
@@ -2370,6 +2360,16 @@
 		)
 		(uuid "3adafd07-038f-44a2-83d8-05aa3f444cdb")
 	)
+	(wire
+		(pts
+			(xy 27.94 54.61) (xy 27.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4328e7d5-0e82-445b-a4e9-4cd0a9c5f832")
+	)
 	(bus
 		(pts
 			(xy 85.09 12.7) (xy 85.09 73.66)
@@ -2379,6 +2379,16 @@
 			(type default)
 		)
 		(uuid "45c561b0-d9b2-4830-997d-60ca04ed4d46")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a723ac1-4f57-4863-9744-f278b43148a9")
 	)
 	(bus
 		(pts
@@ -2802,6 +2812,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 29.21) (xy 55.88 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23c6e10-220d-4cc3-902d-5ad271f996af")
+	)
+	(wire
+		(pts
 			(xy 166.37 21.59) (xy 166.37 25.4)
 		)
 		(stroke
@@ -3040,16 +3060,6 @@
 		)
 		(uuid "ea2e6493-cc69-489d-a3de-86999632ac80")
 	)
-	(wire
-		(pts
-			(xy 50.8 29.21) (xy 55.88 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efef3e8f-fd48-4d29-9a2a-2e64db536241")
-	)
 	(bus
 		(pts
 			(xy 85.09 12.7) (xy 215.9 12.7)
@@ -3099,16 +3109,6 @@
 			(type default)
 		)
 		(uuid "f819c1bf-f790-40df-9783-b432faeace1c")
-	)
-	(wire
-		(pts
-			(xy 50.8 44.45) (xy 52.07 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc534751-cf8e-4d89-b499-d6cba92b1129")
 	)
 	(wire
 		(pts
@@ -4849,89 +4849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
-		(at 35.56 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "587bc1cf-e627-4d90-b550-015d73da48d8")
-		(property "Reference" "J1"
-			(at 35.56 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
-			(at 35.56 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 39.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 35.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-			(at 35.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A12"
-			(uuid "db71beff-d2a4-4e15-a8c8-8cc21d77f21c")
-		)
-		(pin "B12"
-			(uuid "99bfad8e-b5e9-4968-9474-821a6d65ff28")
-		)
-		(pin "A9"
-			(uuid "eeb55bbc-e0bf-4242-acc8-1bdb831d830b")
-		)
-		(pin "S1"
-			(uuid "1f8810f2-f654-4c01-a185-9b1a8550ab19")
-		)
-		(pin "B9"
-			(uuid "c4d1a140-815f-4c0d-a729-5f2022faf473")
-		)
-		(pin "A5"
-			(uuid "05b37e94-6932-473c-8dab-b306adfc85a7")
-		)
-		(pin "B5"
-			(uuid "f18ef2e6-628f-4b1e-b9e7-541c27b5d628")
-		)
-		(instances
-			(project ""
-				(path "/13efd387-de04-4584-baa5-02298cbea49f/3cc063e7-8a10-4c8e-94df-0d39720f006a"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 146.05 22.86 0)
 		(unit 1)
@@ -6320,6 +6237,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
+		(at 35.56 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b306bcc6-4fd7-4d23-9cc7-a894487551fc")
+		(property "Reference" "J1"
+			(at 35.56 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+			(at 35.56 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB4515-GF-A_REVA:GCT_USB4515-GF-A_REVA"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 35.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 35.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A12"
+			(uuid "f0ee2a86-c628-4f5b-944b-af3f8923bb6d")
+		)
+		(pin "S1"
+			(uuid "b0d1b798-3003-4013-86a5-98a910b0f1e0")
+		)
+		(pin "B12"
+			(uuid "33929b79-84f1-4261-8a98-b9f5b2c01cb5")
+		)
+		(pin "A9"
+			(uuid "1d0f9671-2e88-4c9b-b00a-cca27a8975b6")
+		)
+		(pin "B9"
+			(uuid "6fe54317-1b97-42e6-9a81-0e0b498e2772")
+		)
+		(pin "A5"
+			(uuid "1502c013-83b5-4bfa-a18a-de30dc646a98")
+		)
+		(pin "B5"
+			(uuid "d57244a6-47f9-4b59-8f64-ced737c13f52")
+		)
+		(instances
+			(project ""
+				(path "/13efd387-de04-4584-baa5-02298cbea49f/3cc063e7-8a10-4c8e-94df-0d39720f006a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 124.46 0)
 		(unit 1)
@@ -6654,7 +6654,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 27.94 55.88 90)
+		(at 27.94 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6663,7 +6663,7 @@
 		(fields_autoplaced yes)
 		(uuid "d421a701-c4f8-4b79-879e-5e6fd9391add")
 		(property "Reference" "#FLG03"
-			(at 26.035 55.88 0)
+			(at 26.035 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6672,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 24.13 55.8799 90)
+			(at 24.13 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 55.88 0)
+			(at 27.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +6690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 55.88 0)
+			(at 27.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +6699,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 27.94 55.88 0)
+			(at 27.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
