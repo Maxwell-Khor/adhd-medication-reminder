@@ -1,0 +1,6 @@
+Front (top side) placement file: '/Users/maxwellkhor/Desktop/adhd-medication-reminder/hardware/rev-b/rev-b-top.pos'.
+Info: Component count: 44.
+Back (bottom side) placement file: '/Users/maxwellkhor/Desktop/adhd-medication-reminder/hardware/rev-b/rev-b-bottom.pos'.
+Info: Component count: 25.
+Info: Full component count: 69.
+Info: Done.
